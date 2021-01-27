@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-font-smoothing:antialiased;
+}
+header{
+    background-color: limegreen;  
+    padding: 20px;  
+}
+body{
+    background-color: teal;
+}
+ 
+nav{
+    flex-direction: row;
+}
+#name{
+    display: inline-block;
+    font-size: 150%;
+    font-weight: bold;
+    font-family:cursive;
+    text-align: left;
+    min-width: 1140px;
+}
+#space{
+    display: inline-flex;
+    margin-left: auto!important;
+}
+}
+}
+#options{
+    display: inline;
+    float: right;
+}
+#About{
+    
+}
+#About,#Hobb,#Skill{
+    display: inline;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+    color: white;
+    padding: 19px;
+    background-color: limegreen;
+    border-width: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+}
+.heading{
+    font-weight: bold;
+    font-size: 70;
+    font-family:Georgia, 'Times New Roman', Times, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
